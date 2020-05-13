@@ -1,9 +1,11 @@
 import { create } from '@storybook/theming'
 
+const colorSecondary = 'rgb(49, 116, 173)'
+
 export default create({
   base: 'light',
 
-  colorSecondary: 'white',
+  colorSecondary,
 
   // UI
   appBg: 'white',
@@ -18,7 +20,7 @@ export default create({
 
   // Toolbar default and active colors
   barTextColor: 'white',
-  barBg: 'rgb(49, 116, 173)',
+  barBg: colorSecondary,
 
   // Form colors
   inputBg: 'white',
